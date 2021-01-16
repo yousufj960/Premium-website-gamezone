@@ -1,0 +1,635 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/**************** 
+                COMMON CSS 
+****************/
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+  font-family: 'Merriweather Sans', sans-serif;
+    background: #232323 ;
+}
+
+img
+{
+    max-width: 100%;
+}
+p
+{
+    color:#909090;
+   font-size: 14px;
+}
+a
+{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+h1
+{
+    color: #7D7D7E;
+}
+
+input[type="submit"]
+{
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+
+
+
+
+
+
+
+/**************** 
+              ##- Header Area 
+****************/
+
+
+#header_area
+{
+    width: 100%;
+    padding: 20px 0;
+  background: #232323;
+    color: #909090;
+}
+
+#header_area img
+{
+    width: 210px;
+
+}
+#header_area .col-md-8
+{
+
+    font-family: monospace;
+}
+
+#header_area .col-md-8 ul
+{
+list-style: none;
+margin: 0;
+padding: 0;text-align: right;
+}
+
+#header_area .col-md-8 ul li
+{
+    display: inline-block;
+    margin-right: 15px;
+   
+}
+
+#header_area .col-md-8 ul li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+#header_area .col-md-8 ul li a:hover  .fa-facebook
+{
+   color: #1877F2;
+   
+}
+#header_area .col-md-8 ul li a:hover  .fa-twitter
+{
+   color: skyblue;
+   
+}
+#header_area .col-md-8  ul li a:hover  .fa-youtube
+{
+   color: red;
+   
+}
+#header_area .col-md-8 ul li a:hover  .fa-instagram
+{
+   color: lightcoral;
+   
+}
+#header_area .col-md-8 ul li a:hover  .fa-google-plus
+{
+   color: red;
+   
+}
+
+
+
+
+
+
+
+/**************** 
+              ##- Main Menu Area
+****************/
+
+#MENU_area
+{
+     width: 100%;
+    border-bottom: 1px  solid  #333333;
+    padding: 20px 0;
+}
+#main_menu
+{
+   text-align: left;
+  
+   color: #909090;
+    clear: both;
+    background:  #232323 ;
+   
+}
+#main_menu ul
+{
+      list-style: none;
+}
+
+#main_menu ul li
+{
+      display: inline-block;
+    
+   margin-right: 9px;
+       position: relative;
+}
+#main_menu ul li a.active
+{
+   color: #FF8524;
+}
+#main_menu ul li a
+{
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2.2px;
+    text-decoration: none;
+    padding: 0px 05px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#main_menu ul li a:hover
+{
+    color: #FF8524;
+}
+
+#main_menu ul li a:hover{
+     color: #FF8524;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*************##################
+                              DROP DOWN MENU
+****************###########################*/
+
+#main_menu ul li   ul 
+{
+    position: absolute;
+    background:#FF8524;
+    top:20px;
+    left: -9999px;
+    text-align: left;
+    width: 180px;
+    padding: 0;
+    z-index: 999;
+}
+#main_menu ul li:hover   ul 
+{
+    left: 05px;
+}
+
+#main_menu ul li   ul li
+{
+     display: block;
+    text-align: left;
+ width: 180px;
+}
+
+
+#main_menu ul li   ul li a
+{
+    color: white;
+    text-align: left;
+    display: block;
+}
+
+#main_menu ul li   ul li a:hover
+{
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+/**************** 
+              ##- Banner Area
+****************/
+#banner_area
+{
+   padding: 40px 0;
+    clear: both;
+}
+#banner_area .col-md-5
+{
+    margin-top: 20px;
+}
+#banner_area h1
+{
+    color: #7D7D7E;
+}
+
+#banner_area p
+{
+    color:#909090;
+   font-size: 14px;
+}
+#banner_area a
+{
+     background: #FF8524;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#banner_area a:hover
+{
+    background: white;
+}
+
+
+
+
+
+
+
+/**************** 
+              ##- Service Area
+****************/
+
+
+
+
+#service_area
+{
+    padding: 60px 0;
+    clear: both;
+    text-align: center;
+}
+#service_area h2
+{
+    color: #7D7D7E;
+    font-size: 22px;
+}
+#service_area p
+{
+    color:#909090;
+   font-size: 14px;
+}
+#service_area img
+{
+    height: auto;
+    display: block;
+ max-width: 100%;
+    
+}
+#service_area a:hover
+{
+    background: whitesmoke;
+}
+#service_area .btn1
+{
+    background:#5199C1 ;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#service_area .btn2
+{
+    background:#897192 ;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#service_area .btn3
+{
+    background:#9C252E  ;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/**************** 
+              ##- Work Area
+****************/
+
+
+#work_area
+{
+    padding: 20px 0;
+    clear: both;
+    width: 100%;
+   
+}
+#work_area .col-md-4{
+    float: left;
+}
+#work_area h1
+{
+    color: #999999;
+    font-size: 32px;
+}
+#work_area .col-md-5
+{
+    margin-right: 0px;
+}
+#work_area img
+{
+    display: block;
+    
+}
+#accordion .card
+{
+    background: #333333;
+    padding: 20px;
+}
+#accordion a
+{
+    text-decoration: none;
+}
+#accordion .btn
+{
+    color: #FFC189;
+    text-decoration: none;
+}
+#accordion .card-body p{
+    color: aliceblue;
+}
+#work_area .col-md-4{
+    padding: 20px 30px;
+    
+}
+
+
+
+
+
+
+/**************** 
+              ##- Write Area 
+****************/
+
+
+#Write_area
+{
+    padding: 60px 0;
+    clear: both;
+    width: 100%;
+}
+
+
+
+
+/**************** 
+              ##- Hero  Area 
+****************/
+
+
+
+#hero_area
+{
+     padding: 60px 0;
+    clear: both;
+    width: 100%;
+}
+#hero_area h1
+{
+    font-size: 25px;
+}
+.btn-success
+{
+    padding: 8px 30px;
+    border-radius: 6px;
+}
+.btn-danger
+{
+    padding: 8px 30px;
+    border-radius: 6px;
+}
+#hero_area .col-md-4 
+{
+    margin-top: 50px;
+ 
+}
+#hero_area .col-md-4 p
+{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/**************** 
+              ##- Final Area 
+****************/
+
+#Final
+{
+    padding: 60px 0;
+    width: 100%;
+}
+#Final p{
+    margin-top: 50px;
+}
+#Final h2
+{
+    color: whitesmoke;
+    font-size: 45px;
+}
+#Final .btn-info
+{
+      padding: 8px 30px;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+
+
+/**************** 
+              ##- Footer Area 
+****************/
+
+
+#footer
+{
+    padding: 120px 0 40px 0;
+    clear: both;
+    margin-bottom: 0;
+  border-bottom: 1px solid #333333;
+}
+#footer p
+{
+    margin-top: 31px;
+     border-bottom: 1px solid #333333;
+    padding: 10px 0;
+}
+#footer span
+{
+     color: #FF8524;
+}
+#footer h2
+{
+    color: #999999; 
+    border-bottom: 1px solid #999999;
+  
+       padding: 20px 0;
+            font-size:20px;
+        font-family:Tekton Pro;
+        
+          margin:0;
+}
+#footer ul
+{
+    list-style: none;
+    margin-top: 20px;
+}
+#footer ul li{
+     border-bottom: 1px solid #333333;
+    padding: 20px 1px;
+}
+#footer ul li a{
+    color: #FF8524;
+    text-decoration: none;
+}
+#footer ul li a:hover{
+    color: whitesmoke;
+    
+}
+#footer form
+{
+    margin-top: 30px;
+}
+
+#footer input,textarea
+{
+    width: 100%;
+    background: #333333;
+    border: 0px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+}
+#footer .label {
+  color: #999;
+
+}
+#footer .child_footer{
+    margin-top: 30px;
+}
+#footer .child_footer img
+{
+    display: block;
+    float:left;
+    margin: 20px 02px;
+    max-width: 25%;
+}
+
+#footer input[type="reset"]
+{
+    background:lightgrey;
+    width: 40%;
+    font-size: 14px;
+    color: black;
+}
+
+#footer input[type="submit"]
+{
+    background: #FF8524;
+    width: 40%;
+        font-size: 14px;
+    color: black;
+}
+#footer  input:hover[type="submit"] 
+    {
+        background: lightcoral;
+    }
+#footer  input:hover[type="reset"] 
+    {
+        background: skyblue;
+    }
+
+
+
+
+
+
+/**************** 
+              ##- Copyright Area 
+****************/
+
+#Copyright{
+    
+ padding: 30px 0;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
